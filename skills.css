@@ -1,0 +1,194 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    color: #fff;
+    background: #081b29;
+}
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+.sub-title span{
+    color: #0ef;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+.container1{
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+.bar{
+    font-size: 23px;
+}
+.Technical-bars .bar{
+    margin: 40px 0;
+}
+.Technical-bars .bar:first-child{
+    margin-top: 0;
+}
+.Technical-bars .bar:last-child{
+    margin-bottom: 0;
+}
+.Technical-bars .bar .info{
+    margin-bottom: 5px;
+}
+.Technical-bars .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+    animation: ShowText 0.5 1s linear forwards;
+    opacity: 0;
+}
+
+.progress-bar {
+    width: 80%;
+    background-color: #f0f0f0;
+    height: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .progress {
+    width: 0; /* Khởi tạo với chiều rộng 0 */
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 10px;
+    animation: progressAnimation 5s linear forwards; /* Thêm animation */
+  }
+  
+  @keyframes progressAnimation {
+    0% {
+      width: 0;
+    }
+    80% {
+      width: 80%; /* Dừng lại ở 80% */
+    }
+    100% {
+      width: 80%; /* Đảm bảo thanh tiến trình không di chuyển sau khi dừng lại */
+    }
+  }
+  .progress-bar1 {
+    width: 80%;
+    background-color: #f0f0f0;
+    height: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .progress1 {
+    width: 0; /* Khởi tạo với chiều rộng 0 */
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 10px;
+    animation: progressAnimation1 5s linear forwards; /* Thêm animation */
+  }
+  
+  @keyframes progressAnimation1 {
+    0% {
+      width: 0;
+    }
+    80% {
+      width: 70%; /* Dừng lại ở 80% */
+    }
+    100% {
+      width: 70%; /* Đảm bảo thanh tiến trình không di chuyển sau khi dừng lại */
+    }
+  }
+  .progress-bar2 {
+    width: 80%;
+    background-color: #f0f0f0;
+    height: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .progress2 {
+    width: 0; /* Khởi tạo với chiều rộng 0 */
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 10px;
+    animation: progressAnimation2 5s linear forwards; /* Thêm animation */
+  }
+  
+  @keyframes progressAnimation2 {
+    0% {
+      width: 0;
+    }
+    80% {
+      width: 60%; /* Dừng lại ở 80% */
+    }
+    100% {
+      width: 60%; /* Đảm bảo thanh tiến trình không di chuyển sau khi dừng lại */
+    }
+  }
+  .progress-bar3 {
+    width: 80%;
+    background-color: #f0f0f0;
+    height: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .progress3 {
+    width: 0; /* Khởi tạo với chiều rộng 0 */
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 10px;
+    animation: progressAnimation3 5s linear forwards; /* Thêm animation */
+  }
+  
+  @keyframes progressAnimation3 {
+    0% {
+      width: 0;
+    }
+    80% {
+      width: 50%; /* Dừng lại ở 80% */
+    }
+    100% {
+      width: 50%; /* Đảm bảo thanh tiến trình không di chuyển sau khi dừng lại */
+    }
+  }
+  .progress-bar4 {
+    width: 80%;
+    background-color: #f0f0f0;
+    height: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .progress4 {
+    width: 0; /* Khởi tạo với chiều rộng 0 */
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 10px;
+    animation: progressAnimation4 5s linear forwards; /* Thêm animation */
+  }
+  
+  @keyframes progressAnimation4 {
+    0% {
+      width: 0;
+    }
+    80% {
+      width: 80%; /* Dừng lại ở 80% */
+    }
+    100% {
+      width: 80%; /* Đảm bảo thanh tiến trình không di chuyển sau khi dừng lại */
+    }
+  }
